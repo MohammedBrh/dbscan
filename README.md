@@ -35,18 +35,21 @@ on comparant cet algorithme a K-means, on trouve les différences suivantes:
 étape 3: on répète ces étapes jusqu’à tous les points sont classifiés comme segments ou bruits.
 
 # pour calculer la distance entre le mot on utiliser Algorithme de levenshtein:
-cette algorithme nous permet de calculer la distance entre deux chaînes de caractères, des mots, noms etc mais pas des phrases. Cette fonction prends deux chaînes de caractères, elle retourne 0 si ils sont identique, si non le nombre minimum de modifications (ajout, suppression ou substitution
-d’un caractère ) requis pour les rendre identiques.
+cette algorithme nous permet de calculer la distance entre deux chaînes de caractères, des mots, noms etc mais pas des phrases. Cette fonction prends deux chaînes de caractères, elle retourne 0 si ils sont identique, si non le nombre minimum de modifications (ajout, suppression ou substitution d’un caractère ) requis pour les rendre identiques.
 
 # exemple:
 la distance entre HONDA et HYUNDAI est égale à 3. 
+
 avec HYUNDAI on supprime Y, on substitue U par O, finalement on supprime I. 
+
 ou bien, avec HONDA, on ajoute Y, on substitue O par U, on ajoute I.
 
 # Sources:
 
-Pseudocode of the DBSCAN algorithm 
+Pseudocode of the DBSCAN algorithm :
+
 https://www.researchgate.net/figure/Pseudocode-of-the-DBSCAN-algorithm_fig2_325059373
 
-Algorithme de levenshtein
+Algorithme de levenshtein:
+
 https://www.youtube.com/watch?v=Ah_4xqvS1WU
